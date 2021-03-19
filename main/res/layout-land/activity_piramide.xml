@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TableroPiramide">
+
+    <ImageButton
+        android:id="@+id/btn1"
+        android:layout_width="45dp"
+        android:layout_height="48dp"
+        android:layout_above="@id/fila2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/whiteButton"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/llena" />
+
+    <LinearLayout
+        android:id="@+id/fila2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fila3"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn2"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn3"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btn4"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn5"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn6"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fila3"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn7"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn8"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn9"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn10"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fila5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fila4"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn11"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn12"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn13"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn14"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+
+        <ImageButton
+            android:id="@+id/btn15"
+            android:layout_width="45dp"
+            android:layout_height="48dp"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/llena" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/puntajeTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="false"
+        android:fontFamily="@font/francois_one"
+        android:text="Puntaje = 0"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/espacio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/reiniciar" />
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+        <ImageButton
+            android:id="@+id/skip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/saltarnivel" />
+
+        <ImageButton
+            android:id="@+id/sugerencia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/whiteButton"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ayuda" />
+
+    </LinearLayout>
+
+</RelativeLayout>

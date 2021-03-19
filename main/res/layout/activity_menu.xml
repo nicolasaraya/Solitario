@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    tools:context=".Menu">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="352dp"
+        android:layout_height="190dp"
+        android:layout_above="@id/Jugar"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/Imagenlogo"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/Jugar"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_centerInParent="true"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/Jugar"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/jugar" />
+
+    <ImageButton
+        android:id="@+id/ComoJugar"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/Jugar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/ComoJugar"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/como" />
+
+    <ImageButton
+        android:id="@+id/Creditos"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/ComoJugar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/Creditos"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/creditos" />
+
+    <ImageButton
+        android:id="@+id/Salir"
+        android:layout_width="210dp"
+        android:layout_height="53dp"
+        android:layout_below="@id/Creditos"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/Salir"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/salir" />
+
+
+</RelativeLayout>

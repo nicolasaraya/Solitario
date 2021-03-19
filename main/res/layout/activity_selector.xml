@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Selector">
+
+    <ImageView
+        android:id="@+id/imageMap"
+        android:layout_width="297dp"
+        android:layout_height="258dp"
+        android:layout_above="@id/MapCruz"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/Imagenlogo"
+        app:srcCompat="@drawable/mapas" />
+
+    <ImageButton
+        android:id="@+id/MapCruz"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/BotonCruz"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cruz" />
+
+    <ImageButton
+        android:id="@+id/MapPiramide"
+        android:layout_width="242dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/MapCruz"
+        android:layout_centerInParent="true"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/BotonPiramide"
+        android:maxWidth="10dp"
+        android:maxHeight="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/piramide" />
+
+    <ImageButton
+        android:id="@+id/backSelector"
+        android:layout_width="202dp"
+        android:layout_height="51dp"
+        android:layout_below="@id/MapPiramide"
+        android:layout_centerHorizontal="true"
+        android:background="@color/whiteButton"
+        android:contentDescription="@string/BotonAtras"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/back" />
+</RelativeLayout>

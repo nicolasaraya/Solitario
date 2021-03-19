@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Solitario</string>
+    <string name="Imagenlogo">Logo</string>
+    <string name="BotonAtras">Atras</string>
+    <string name="BotonHome">Home</string>
+    <string name="BotonSkip">Saltar</string>
+    <string name="BotonSugerencia">Sugerencia</string>
+    <string name="Casilla">Casilla</string>
+    <string name="BotonUndo">Volver Una Jugada</string>
+    <string name="BotonRestart">Reiniciar Juego</string>
+    <string name="Puntaje">Puntaje = 0</string>
+    <string name="Jugar">Jugar</string>
+    <string name="ComoJugar">¿Como Jugar?</string>
+    <string name="Creditos">Creditos</string>
+    <string name="Salir">Salir</string>
+    <string name="BotonCruz">Tablero Cruz</string>
+    <string name="BotonPiramide">Tablero Piramide</string>
+
+
+</resources>
